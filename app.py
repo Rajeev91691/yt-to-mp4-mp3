@@ -45,7 +45,7 @@ def download_video():
         else:
             # Download high-quality video + audio and merge into MP4
             ydl_opts.update({
-                'format': 'bestvideo+bestaudio/best',
+                'format': 'best[ext=mp4]/best',
                 'merge_output_format': 'mp4',
             })
 
