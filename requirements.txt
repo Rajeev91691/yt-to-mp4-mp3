@@ -1,3 +1,5 @@
 flask
 pytube
 moviepy
+yt_dlp
+ffmpeg
